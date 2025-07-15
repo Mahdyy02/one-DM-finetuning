@@ -1,0 +1,2 @@
+set CUDA_VISIBLE_DEVICES=0
+python test.py --one_dm model_zoo\One-DM-ckpt.pt --generate_type oov_u --dir ./Generated/English
